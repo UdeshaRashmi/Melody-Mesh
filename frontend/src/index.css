@@ -1,0 +1,21 @@
+ @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global styles */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f9fafb; /* light gray background */
+  color: #111827; /* dark gray text */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+a {
+  transition: color 0.2s ease-in-out;
+}
+a:hover {
+  color: #6366f1; /* indigo-500 */
+}
